@@ -1,8 +1,8 @@
-# Tube Tools by DC
+# Tube Tools
 
 A Mac app for YouTube: search videos and channels, grab live chat and transcripts, watch, and download videos.
 
-### [⬇️ Download Tube Tools for Mac](https://github.com/danielchi88/tubetools/releases/latest/download/Tube-Tools-by-DC.zip)
+### [⬇️ Download Tube Tools for Mac](https://github.com/danielchi88/tubetools/releases/latest/download/Tube-Tools.zip)
 
 Always the latest version · Apple silicon and Intel · macOS 13 Ventura or later · [All releases](https://github.com/danielchi88/tubetools/releases)
 
@@ -26,15 +26,15 @@ Chats and transcripts save as plain `.txt` files.
 ## Install
 
 1. **Download** the app with the link above. Safari unzips it for you; otherwise double-click
-   `Tube-Tools-by-DC.zip`.
-2. **Drag "Tube Tools by DC" into your Applications folder.** (It needs to live there to update itself.)
+   `Tube-Tools.zip`.
+2. **Drag "Tube Tools" into your Applications folder.** (It needs to live there to update itself.)
 3. **Open it.** The first time, macOS stops it with a message that Apple couldn't verify the app. That's
    expected: the app isn't notarized by Apple (that needs a paid developer account). To allow it, once:
    - **macOS 15 Sequoia and later:** click **Done**, then open **System Settings → Privacy & Security**, scroll
-     down to *"Tube Tools by DC" was blocked*, click **Open Anyway** and confirm with your password.
+     down to *"Tube Tools" was blocked*, click **Open Anyway** and confirm with your password.
    - **macOS 13–14:** right-click (or Control-click) the app in Applications, choose **Open**, then **Open** again.
 
-   Or, in Terminal: `xattr -dr com.apple.quarantine "/Applications/Tube Tools by DC.app"`
+   Or, in Terminal: `xattr -dr com.apple.quarantine "/Applications/Tube Tools.app"`
 
 After that it opens normally.
 
@@ -48,6 +48,9 @@ Tube Tools checks for updates each time it opens, for the app itself and for the
 ([yt-dlp](https://github.com/yt-dlp/yt-dlp) and [FFmpeg](https://ffmpeg.org)), and asks before installing.
 You can also click **Check for Updates** at the bottom of the sidebar, pick what to check, and anything newer
 is installed right away. The app restarts itself after updating.
+
+Versions 1.13 and earlier can't update themselves to newer versions. Download the latest with the link above
+once: it brings over your settings, history and API keys, and offers to move the earlier copy to the Trash.
 
 Keeping yt-dlp up to date matters: YouTube changes often, and yt-dlp updates are what keep downloads working.
 
