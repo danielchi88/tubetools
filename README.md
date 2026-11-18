@@ -6,6 +6,12 @@ A Mac app for YouTube: search videos and channels, grab live chat and transcript
 
 Always the latest version · Apple silicon and Intel · macOS 13 Ventura or later · [All releases](https://github.com/danielchi88/tubetools/releases)
 
+> **Only use Tube Tools on content you own or have permission to use.** It's meant for your own videos,
+> streams, chats and transcripts. You are responsible for how you use it, including following
+> [YouTube's Terms of Service](https://www.youtube.com/t/terms), copyright law and the rights of creators and
+> viewers. Tube Tools is provided as is, without warranty, and its developer is not responsible for how it's used
+> or for anything downloaded with it.
+
 ## What it does
 
 - **Search** YouTube, or browse a channel by typing its `@handle`. Filter by type (videos, Shorts, live now,
@@ -32,6 +38,10 @@ Chats and transcripts save as plain `.txt` files.
 
 After that it opens normally.
 
+Each time it opens, Tube Tools shows its **Terms of Use**: you confirm you'll only use it on content you own or
+have permission to use. Click **I Agree** to continue, or **Quit**. Tick **Don't show this again for 30 days** to
+skip it for a month. You can read them again any time under **Help → Terms of Use…**.
+
 ## Updates
 
 Tube Tools checks for updates each time it opens, for the app itself and for the two tools it uses
@@ -40,6 +50,13 @@ You can also click **Check for Updates** at the bottom of the sidebar, pick what
 is installed right away. The app restarts itself after updating.
 
 Keeping yt-dlp up to date matters: YouTube changes often, and yt-dlp updates are what keep downloads working.
+
+## Download limits
+
+To keep you from being blocked by YouTube, downloads pause for a random 5–10 seconds between videos, and at most
+**20 videos** are downloaded in any 15 minutes. Everything saved from one video counts as one, and loading a
+video's chat and transcript doesn't count. When a limit kicks in, the download window shows a countdown
+("Cooling down before the next video… 7s", or "Resuming in 4:12") and carries on by itself.
 
 ## Tips
 
@@ -58,4 +75,4 @@ Made by Daniel Chi · [youtube.com/@danielchilive](https://youtube.com/@danielch
 Tube Tools uses [yt-dlp](https://github.com/yt-dlp/yt-dlp) (public domain, Unlicense) and
 [FFmpeg](https://ffmpeg.org) (GNU LGPL/GPL; builds from [ffmpeg.martin-riedl.de](https://ffmpeg.martin-riedl.de),
 source code at [ffmpeg.org](https://ffmpeg.org/download.html)).
-Not affiliated with YouTube or Google. Please only download content you have the right to.
+Not affiliated with YouTube or Google. Only download content you own or have permission to use.
